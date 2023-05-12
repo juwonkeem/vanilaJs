@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--
+	Eventually by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <!-- <link rel = "stylesheet" type="text/css" href = "css/style.css" ></link> -->
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+    <title>Momentium App</title>
+</head>
+<body class="is-preload">
+        <!-- Header -->
+        <header id="header">
+            <h1 class="hidden" id="greeting"></h1>
+            <form class="hidden" id="logout-form">
+                <input type="submit" value="log out"/>
+            </form>
+            <form class="hidden" id="login-form">    
+                <input
+                id = "login-input"
+                required
+                maxlength="15"
+                type = "text"
+                placeholder="what is your name?" 
+                />
+                <input type="submit" value="log In"/>
+            </form> 
+            <p>
+                <div id = "quote">
+                    <span></span>
+                        <br>
+                        -
+                        </br>
+                    <span></span>
+                </div>
+            </p>
+        </header>
+            
+        <!-- Signup Form -->
+        <form id = "todo-form">
+            <input type ="text" placeholder="입력하세요" />
+        </form>
+            <ul id ="todo-list">
+            </ul>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <ul class="icons">
+					<h2 id = "clock" ></h2>
+                    <div id ="weather">
+                        <span></span>
+                        <span></span>
+                    </div>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; Untitled.</li><li>Credits: <a href="http://html5up.net">HTML5 UP</a></li>
+				</ul>
+			</footer>    
+        
+    <script src = "js/todo.js" ></script>
+    <script src = "js/clock.js" ></script>
+    <script src = "js/greeting.js" ></script>
+    <script src = "js/quotes.js" ></script>
+    <!-- <script src = "js/background.js" ></script> -->
+    <script src = "js/weather.js" ></script>
+    <script src = "js/main.js" ></script>
+</body>
+</html>
